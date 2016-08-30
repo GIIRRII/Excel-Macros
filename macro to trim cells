@@ -1,0 +1,13 @@
+Sub cellTrimMacro()
+
+Dim rng As Excel.Range
+
+Set rng = Application.InputBox("Select range to amend:", , , , , , , 8)
+
+If Not rng Is Nothing Then
+    For Each cell In rng.Cells
+      cell.Value = Trim(cell.Value)
+    Next
+End If
+
+End Sub
