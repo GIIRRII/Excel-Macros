@@ -1,0 +1,17 @@
+Sub cellTrimMacro()
+
+Dim rng As Excel.Range
+
+Set rng = Application.InputBox("Select range to amend:", , , , , , , 8)
+
+If Not rng Is Nothing Then
+    For Each cell In rng.Cells
+    // to trim cell's values
+      cell.Value = Trim(cell.Value)
+    // to update everycell value
+      cell.Value = "  '" & cell.Value & "' ,"
+    /* i had to update every colummn such that i can use those value directly in SQL so i updated every with '<columnvalue> ' ,    */ 
+    Next
+End If
+
+End Sub
