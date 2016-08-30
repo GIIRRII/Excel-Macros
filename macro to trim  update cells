@@ -1,4 +1,4 @@
-Sub cellTrimMacro()
+Sub cellTrimUpdateMacro()
 
 Dim rng As Excel.Range
 
