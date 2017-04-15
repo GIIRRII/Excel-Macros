@@ -13,3 +13,5 @@ B1 = "'"&A1&"',"
 </code>
 this will insert values of column<code>A</code> into column <code> B </code> with charater quote and coma separator.
 
+Still you want to use this code then please see "how-to-use" file
+
