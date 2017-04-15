@@ -1,0 +1,10 @@
+#Here are some simple steps which you need to follow:
+
+1.download macro file <code> https://github.com/GIIRRII/Excel-Macros/blob/master/macro%20to%20trim%20%20update%20cell </code>.
+2.go to the excel sheet you need to update.
+3.select <b>View Tab</b> then select macro.
+4.then type "cellTrimUpdateMacro" in dialog box. click on create.
+5.new VB screen will open copy paste the code save it. You are ready to go.
+6.now got to the excdel sheet and again select macro from view tab, now you can see a macro with name "cellTrimUpdateMacro" already there, select it and press run.
+7.it will promt you for the range of column to want to trim and update. Select the column and drag and drop till the end and press ok.
+8 Boom it's done.
